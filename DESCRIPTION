@@ -1,0 +1,26 @@
+Package: GenericsJoin
+Type: Package
+Title: a extend to dplyr's join
+Version: 0.1.0
+Author: zhangzhenhao
+Maintainer: The package maintainer <zngzen28@gmail.com>
+Description: support unequal join
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+LinkingTo: 
+    Rcpp
+Depends: 
+    Rcpp,
+    dplyr,
+    tidyr,
+    ellipsis,
+    rlang,
+    tibble,
+    utils,
+    vctrs
+Suggests: 
+    testthat
+Imports: 
+    Rcpp

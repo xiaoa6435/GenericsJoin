@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib('GenericsJoin')
+import(Rcpp)
+
